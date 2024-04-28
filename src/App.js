@@ -17,6 +17,7 @@ function App() {
         >
           Learn React
         </a>
+        <h1>Editado por Santiago Hernandez</h1>
       </header>
     </div>
   );
