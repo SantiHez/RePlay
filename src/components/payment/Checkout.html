@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Checkout.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>checkout</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+          <button class="proceed"><svg class="sendicon" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+      </svg></button>
+         <img src="https://seeklogo.com/images/V/VISA-logo-62D5B26FE1-seeklogo.com.png" class="logo-card">
+       <label>Numero de la tarjeta:</label>
+       <input id="user" type="text" className="input cardnumber" placeholder="xxxx xxxx xxxx xxxx" readOnly />
+       <label>Nombre del titular:</label>
+       <input className="input name" placeholder="Edgar Pérez" readOnly />
+       <label className="toleft">CCV:</label>
+       <input className="input toleft ccv" placeholder="321" readOnly />
+        </div>
+        <div class="receipt">
+          <p>Para continuar con su pago de click al lado del item la tarjeta</p>
+          <div class="col"><p>Precio final:</p>
+          <h2 class="cost">$10</h2><br>
+          <p>Nombre vendedor:</p>
+          <h2 class="seller">Replay</h2>
+          </div>
+          <div class="col">
+            <p>Objetos en carrito:</p>
+            <h3 class="bought-items">1 mes de membresia premium</h3>
+            <p class="bought-items description">1 mes de reproduccion de contenido ilimitado</p>
+            <p class="bought-items price">$10 (Sin descuento)</p><br>
+            <h3 class="bought-items"></h3>
+            <p class="bought-items description"></p>
+            <p class="bought-items price"></p><br>
+          </div>
+          <p class="comprobe">¡Cuando se haya enviado tu pago un aviso sera enviado a tu correo!</p>
+          <p class="comprobe">Gracias por confiar en nosotros</p>
+        </div>
+        <div class="cancelar">
+            <a href="tienda.html" class="btn-neon">
+                <span id="span1"></span>
+                <span id="span2"></span>
+                <span id="span3"></span>
+                <span id="span4"></span>
+                Cancelar
+        </a>
+        </div>
+      </div>
+</body>
+</html>
