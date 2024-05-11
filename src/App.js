@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Profile from './componentes/profile/Profile.js';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       
       <div>
         <h1>ejemplo</h1>
+        <Profile /> 
       </div>
     </>
   );
