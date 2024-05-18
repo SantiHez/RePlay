@@ -12,8 +12,9 @@ function App() {
         <Routes>
           <Route path='/' element={<ComponentMenu/>}></Route>
         </Routes>
-      </BrowserRouter>
+        </BrowserRouter>
     </>
+
   );
 }
 
