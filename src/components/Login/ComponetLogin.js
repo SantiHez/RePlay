@@ -1,7 +1,7 @@
 import React from 'react';
-import './Login.css';
+import './componetLogin.css';
 
-function Login() {
+function ComponetLogin() {
   return (
     <div>
       <h1 className='titulo'>RePlay</h1>
@@ -10,7 +10,7 @@ function Login() {
         <form>
           <div className="user-box">
             <input type="text" name="" required />
-            <label>Nombre</label>
+            <label>Correo</label>
           </div>
           <div className="user-box">
             <input type="password" name="" required />
@@ -21,10 +21,10 @@ function Login() {
           </button>
         </form>
         <a href="#" className="olvidar-contraseña">¿Olvidaste tu contraseña?</a>
+        <a href="#" className="Registrarse">Registrarse</a>
       </div>
     </div>
   );
 }
 
-export default Login;
-
+export default ComponetLogin;
