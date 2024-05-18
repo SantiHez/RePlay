@@ -1,0 +1,23 @@
+.menu {
+    background-color: #243b55;
+    padding: 1rem;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-item {
+    color: white;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-item a:hover {
+    text-decoration: underline;
+}
