@@ -1,37 +1,38 @@
 import './Profile.css';
+import iconProfile from '../../imagenes/iconprofile.jpg';
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Profile() {
     return (
         <Router>
-            <div className='principalContainerP'>
+            <div className='contenedorPrincipal'>
                 <nav>
                     <p>Logo</p>
                 </nav>
 
-                <div>
+                <div className='contenedorSecundario'>
                     <p>Elige tu perfil</p>
-                    <div>
-                        <div>
-                            <img src={require('../imagenes/iconprofile.jpg').default} alt="Imagen 1" /> 
-                            <p>Nombre 1</p>
+                    <div className='contenedorFlex'>
+                        <div className='contenedoresHijos'>
+                            <img src={iconProfile} width= "200px" alt="Imagen 1" /> 
+                            <p className='nombresT'>Nombre 1</p>
                         </div>
-                        <div>
-                            <img src="URL" alt="Imagen 2" />
-                            <p>Nombre 2</p>
+                        <div className='contenedoresHijos'>
+                            <img src={iconProfile} width= "200px"  alt="Imagen 2" />
+                            <p className='nombresT'>Nombre 2</p>
                         </div>
-                        <div>
-                            <img src="URL" alt="Imagen 3" />
-                            <p>Nombre 3</p>
+                        <div className='contenedoresHijos'>
+                            <img src={iconProfile} width= "200px"  alt="Imagen 3" />
+                            <p className='nombresT'>Nombre 3</p>
                         </div>
-                        <div>
-                            <img src="URL" alt="Imagen 4" />
-                            <p>Nombre 4</p>
+                        <div className='contenedoresHijos'>
+                            <img src={iconProfile} width= "200px"  alt="Imagen 4" />
+                            <p className='nombresT'>Nombre 4</p>
                         </div>
-                        <div>
+                        <div className='contenedoresHijos'>
                             <Link to="/nuevo-perfil">
                                 <img src="URL" alt="Imagen 5" />
-                                <p>Añade un perfil</p>
+                                <p className='nombresT'>Añade un perfil</p>
                             </Link>
                         </div>
                     </div>
