@@ -1,0 +1,12 @@
+*{
+    font-family: system-ui;
+}
+
+header{
+    display: flex;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
