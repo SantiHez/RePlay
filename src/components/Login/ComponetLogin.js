@@ -1,10 +1,11 @@
 import React from 'react';
 import './componetLogin.css';
+import { Link } from 'react-router-dom';
 
 function ComponetLogin() {
   return (
-    <div>
-      <h1 className='titulo'>RePlay</h1>
+    <div className='container-login'>
+      <Link to='/'><h1 className='titulo'>RePlay</h1></Link>
       <div className="login-box">
         <h2>Registro</h2>
         <form>
@@ -20,8 +21,8 @@ function ComponetLogin() {
             siguiente
           </button>
         </form>
-        <a href="#" className="olvidar-contraseña">¿Olvidaste tu contraseña?</a>
-        <a href="#" className="Registrarse">Registrarse</a>
+        <Link><p href="#" className="olvidar-contraseña">¿Olvidaste tu contraseña?</p></Link><p href="#" className="olvidar-contraseña">¿Olvidaste tu contraseña?</p>
+        <Link><p href="#" className="Registrarse">Registrarse</p></Link>
       </div>
     </div>
   );

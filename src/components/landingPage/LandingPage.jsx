@@ -12,7 +12,7 @@ export const LandingPage = () => {
     };
 
     return (
-        <>
+        <div className='container-landing'>
             <header>
                 
                 {/* Pendiente el logo*/}
@@ -45,6 +45,6 @@ export const LandingPage = () => {
 
             </footer>
 
-        </>
+        </div>
     )
 }

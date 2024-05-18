@@ -1,5 +1,5 @@
 import { LandingPage } from './components/landingPage/LandingPage';
-import { Login } from './components/login/Login';
+import  ComponetLogin  from './components/Login/ComponetLogin';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<Login/>} />
+        <Route path="/login" element={<ComponetLogin/>} />
       </Routes>
     </BrowserRouter>
   );
