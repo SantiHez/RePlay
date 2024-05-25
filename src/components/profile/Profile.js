@@ -1,5 +1,6 @@
 import './Profile.css';
 import iconProfile from '../../imagenes/iconprofile.jpg';
+import iconReplay from '../../imagenes/iconReplay.png'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function Profile() {
@@ -7,7 +8,7 @@ function Profile() {
         <Router>
             <div className='contenedorPrincipal'>
                 <nav>
-                    <p>Logo</p>
+                    <img src={iconReplay} width= "150px" alt="Imagen 1" style={{marginTop : 0}}/>
                 </nav>
 
                 <div className='contenedorSecundario'>
